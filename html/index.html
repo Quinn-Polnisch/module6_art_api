@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="../static/css/main.css">
+        <script src="../js/main.js"></script>
+        <title>Chicago Art Institute API</title>
+    </head>
+    <body>
+
+        <section class="bg-dark text-light text-center shadow">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="d-row-flex bg-dark align-items-center justify-content-evenly">
+                        <h1 class="col text-center"><br>Chicago Art Institute API</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="bg-light text-center p-10 p-lg-0 lg-10 text-sm-start shadow-lg">
+            <div class="container p-5">
+                <h2 class="text-center p-5">Gallery</h2>
+                <div class="row g-4 p-4">
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1917.200 - Icebound.jpg" id="72801" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <!-- <button class="p-2 rounded bg-dark text-light" id="72801" onClick="getData(this.id)">
+                                More Info
+                            </button> -->
+                            <div class="p72801" id="72801" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1926.417 - The Bedroom.jpg" id="28560" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <div class="p28560" id="28560" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1933.1157 - Water Lilies.jpg" id="16568" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <div class="p16568" id="16568" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1933.455 - Two Sisters (On the Terrace).jpg" id="14655" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <div class="p14655" id="14655" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1981.12 - Ballet at the Paris Opéra.jpg" id="61603" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <div class="p61603" id="61603" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div>
+                            <img src="../static/images/1985.1103 - Stacks of Wheat (End of Summer).jpg" id="64818" alt="" class="img-fluid" onClick="getData(this.id)">
+                            <div class="p64818" id="64818" onClick="clearData(this.id)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
